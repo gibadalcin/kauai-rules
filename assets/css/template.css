@@ -64,7 +64,7 @@ nav a:hover {
     display: flex;
     flex-direction: column;
     justify-content:space-around;
-    margin-bottom: 60px;
+    margin-bottom: 70px;
 }
 .banner_headline h1 {
     color: #ffffff;
@@ -744,9 +744,6 @@ footer .widget_title_text {
     .footer_area {
         display: flex;
         flex-direction: column;  
-    }
-    #form_text {
-        font-size: 12px;
     }
     .footer_copy {
         font-size: 11px;
