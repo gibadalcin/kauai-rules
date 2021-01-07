@@ -433,6 +433,34 @@ footer .widget_title_text {
 .desc_114 e {
     color: #ffffff;
 }
+.icon_115 {
+    display: flex;
+    flex-direction: row;
+    margin: 40px 0px 10px 0px;
+}
+.icon_115_1,
+.icon_115_2,
+.icon_115_3,
+.icon_115_4 {
+    width: 35px;
+    height: 35px;
+    margin: 0px 5px 0px 0px;
+    background-color: #ffffff;
+    background-position: center;
+    background-size: cover;
+}
+.icon_115_1 {
+    background-image: url('../images/ficon.png');
+}
+.icon_115_2 {
+    background-image: url('../images/inicon.png');
+}
+.icon_115_3 {
+    background-image: url('../images/insicon.png');
+}
+.icon_115_4 {
+    background-image: url('../images/ticon.png');
+}
 .desc_211,
 .desc_221,
 .desc_231 {
@@ -575,6 +603,10 @@ footer .widget_title_text {
     }
     .desc_114 {
         padding: 0;
+        margin-left: 10px;
+    }
+    .icon_115 {
+        padding: 0px 0px 20px 0px;
         margin-left: 10px;
     }
     .footer_copy {
@@ -744,6 +776,9 @@ footer .widget_title_text {
     .footer_area {
         display: flex;
         flex-direction: column;  
+    }
+    .icon_115 {
+        margin-top: 30px;
     }
     .footer_copy {
         font-size: 11px;
