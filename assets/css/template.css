@@ -10,7 +10,7 @@ body {
 
 .container {
     display: flex;
-    width:70%;
+    width:990px;
     margin-top: 2rem;
 }
 
@@ -403,14 +403,17 @@ footer .widget_title_text {
 @media(max-width: 770px) {
     
     .container {
-        display: flex;
-        width:90%;
+        width:95.75%;
         margin-top: 1rem;
     }
     
     .column {
         margin-top: 0;
         width:80%;
+    }
+    
+    .banner {
+        width: 100%;
     }
     
     .widget_group {
@@ -443,7 +446,11 @@ footer .widget_title_text {
     }
 }
 
-@media (max-width: 426px) {
+@media (max-width: 500px) {
+    
+    html, body {
+        overflow-x: hidden;
+    }
     
     .banner_headline h1 {
         font-size: 58px;
@@ -466,7 +473,7 @@ footer .widget_title_text {
     }
     
     .maps iframe {
-        max-width: 100%;
+        width: 100%;
     }
     
     .footer_area {
