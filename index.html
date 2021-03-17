@@ -1,332 +1,221 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Medicenter</title>
-        <meta charset="UTF-8" />
-        <link rel="stylesheet" href="assets/utils/normalize.css">
-        <meta id="viewport" name="viewport" content="width=device-width, user-scalable=no"/>
-        <link rel="stylesheet" type="text/css" href="assets/css/template.css"/>
-        <script type="text/javascript">
-        window.onload = function() {
-            document.querySelector(".menu_mobile").addEventListener("click", function() {
-                if (document.querySelector(".menu nav ul").style.display =='flex') {
-                    document.querySelector(".menu nav ul").style.display = 'none';
-                } else {
-                    document.querySelector(".menu nav ul").style.display = 'flex';
-                }
-            });
-        };
-        </script>
-    </head>
-    <body>
-        <header>
-            <div class="container">
-                <div class="logo">
-                    <a href=""><img src="assets/images/logo.png"/></a>
-                </div>
-                <div class="menu">
-                    <nav>
-                        <div class="menu_mobile">
-                            <div class="mm_line"></div>
-                            <div class="mm_line"></div>
-                            <div class="mm_line"></div>
-                        </div>
-                        <ul>
-                            <li class="active"><a href="">Home</a></li>
-                            <li><a href="">Blog</a></li>
-                            <li><a href="">Pages</a></li>
-                            <li><a href="">Departments</a></li>
-                            <li><a href="">Timetable</a></li>
-                            <li><a href="">Gallery</a></li>
-                            <li><a href="">Contact</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </header> 
+
+<head>
+    <title>Kauai Pousada</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="assets/utils/normalize.css">
+    <meta id="viewport" name="viewport" content="width=device-width, user-scalable=no" />
+    <link rel="stylesheet" type="text/css" href="assets/css/template.css" />
+
+</head>
+
+<body>
+    <header>
         <section id="banner">
             <div class="container column">
+                <div class="logo">
+                    <a href=""><img src="assets/images/logokauaibranco.png" /></a>
+                </div>
                 <div class="banner_headline">
                     <h1>Top notch experience</h1>
-                    <h2>Medicenter is a responsive template perfect for all screen sizes</h2>
-                </div>
-                <div class="banner_options">
-                   <div class="banner1">
-                        <div class="banner_title">Emergency Case</div>
-                        <div class="banner_desc">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
-                        <a href="">Read More..</a>
-                   </div>
-                   <div class="banner2">
-                    <div class="banner_title">Doctors Timetable</div>
-                    <div class="banner_desc">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
-                    <a href="">Read More..</a>
-                </div>
-                <div class="banner3">
-                    <div class="banner_title">Opening Hours</div>
-                        <div id="hours" class="banner_desc">
-                            <div class="week">
-                               <h3>Monday - Friday</h3>
-                               <h3>8.00 - 17.00</h3>
-                            </div>
-                            <div class="saturday">
-                                <h3>Saturday</h3>
-                                <h3>9.30 - 17.30</h3>
-                            </div>
-                            <div class="sunday">
-                                <h3>Sunday</h3>
-                                <h3>9.30 - 16.00</h3>
-                            </div>                       
-                        </div>
-                </div>
+                    <h2> - O SEU LUGAR NO ROSA -</h2>
                 </div>
             </div>
         </section>
-        <section id="geral">
-            <div class="container">
-                <section>
-                    <div class="widget">
-                        <div class="widget_title">
-                            <div class="widget_title_text">Latest News</div>
-                            <div class="widget_title_bar"></div>
-                        </div>
-                        <div class="widget_body flex">
-                            <article>
-                                <a href="">
-                                    <div class="news_data">
-                                        <div class="news_posted_at">20 DEC 04</div>
-                                        <div class="news_comments">2</div>
-                                    </div>
-                                    <div class="news_thumbnail">
-                                        <img src="assets/images/dr.jpg"/>
-                                    </div>
-                                    <div class="news_title">
-                                        <h3>Lorem ipsum dolor sit amat velum</h3>
-                                    </div>
-                                    <div class="news_resume">
-                                        There are many variations of passages of Lorem Ipsum available,
-                                        but the majority have suffered alteration in some form,
-                                        by injected humour, or randomised words which don't look even slightly believable.
-                                    </div>
-                                </a>
-                            </article>
-                            <article>
-                                <a href="">
-                                    <div class="news_data">
-                                        <div class="news_posted_at">20 DEC 12</div>
-                                        <div class="news_comments">2</div>
-                                    </div>
-                                    <div class="news_thumbnail">
-                                        <img src="assets/images/dr1.jpg"/>
-                                    </div>
-                                    <div class="news_title">
-                                        <h3>Lorem ipsum dolor sit amat velum</h3>
-                                    </div>
-                                    <div class="news_resume">
-                                        There are many variations of passages of Lorem Ipsum available,
-                                        but the majority have suffered alteration in some form,
-                                        by injected humour, or randomised words which don't look even slightly believable.                                  
-                                    </div>
-                                </a>
-                            </article>
-                            <article>
-                                <a href="">
-                                    <div class="news_data">
-                                        <div class="news_posted_at">20 DEC 21</div>
-                                        <div class="news_comments">2</div>
-                                    </div>
-                                    <div class="news_thumbnail">
-                                        <img src="assets/images/dr2.jpg"/>
-                                    </div>
-                                    <div class="news_title">
-                                        <h3>Lorem ipsum dolor sit amat velum</h3>
-                                    </div>
-                                    <div class="news_resume">
-                                        There are many variations of passages of Lorem Ipsum available,
-                                        but the majority have suffered alteration in some form,
-                                        by injected humour, or randomised words which don't look even slightly believable.                        
-                                    </div>
-                                </a>
-                            </article>
-                            <article>
-                                <a href="">
-                                    <div class="news_data">
-                                        <div class="news_posted_at">21 JAN 10</div>
-                                        <div class="news_comments">2</div>
-                                    </div>
-                                    <div class="news_thumbnail">
-                                        <img src="assets/images/dr3.jpg"/>
-                                    </div>
-                                    <div class="news_title">
-                                        <h3>Lorem ipsum dolor sit amat velum</h3>
-                                    </div>
-                                    <div class="news_resume">
-                                        There are many variations of passages of Lorem Ipsum available,
-                                        but the majority have suffered alteration in some form,
-                                        by injected humour, or randomised words which don't look even slightly believable.                       
-                                    </div>
-                                </a>
-                            </article>
-                        </div>
+    </header>
+    <section id="geral">
+        <section class="container">
+            <div class="widget">
+                <div class="widget_group">
+                    <div class="widget_title">
+                        <div class="widget_title_text">INFORMAÇÕES IMPORTANTES!</div>
+                        <div class="widget_title_bar"></div>
                     </div>
-                </section>
-                <aside>
-                    <div class="widget">
-                        <div class="widget_title">
-                            <div class="widget_title_text">Departments</div>
-                            <div class="widget_title_bar"></div>
+                    <div class="wifi_group">
+                        <div class="wifi">
+                            <a href=""><img src="assets/images/wifi.png" alt=""></a>
                         </div>
-                        <div class="widget_body">
-                            <a id="oncology" href="">Oncology</a>
-                            <a id="neurology" href="">Neurology</a>
-                            <a id="cardiology" href="">Cardiology</a>
-                            <a id="pulmonology" href="">Pulmonology</a>
-                            <a id="urology" href="">Urology</a>
-                            <a id="ginecology" href="">Ginecology</a>
-                        </div>
-                    </div>
-                    <div class="widget">
-                        <div class="widget_title">
-                            <div class="widget_title_text">Make An Appointment</div>
-                            <div class="widget_title_bar"></div>
-                        </div>
-                        <div class="widget_body">
-                            <div class="text">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.</div>
-                            <div class="tel">
-                                <div id="tel_icon"></div>
-                                <div id="tel_text">by phone : <strong id="n">1-800-443-4300</strong></div>
+                        <div class="form_wifi">
+                            <div class="name_wifi">
+                                Nome: <strong>kauai</strong>
+                                <br>Senha: <strong>kauai2020</strong>
                             </div>
-                            <div class="email">
-                                <div id="email_icon"></div>
-                                <div id="email_text">by email :<strong id="e">medicenter@email.com</strong></div>
-                            </div>
-                            <div class="form">
-                                <div id="form_icon"></div>
-                                <a id="form_text" href="" > Or <strong id="form_link">fill in the form</strong> on our contact page</a>
-                            </div>
-                        </div>
-                    </div>
-                </aside>
-            </div>
-        </section> 
-        <footer>
-            <div class="container flex_column">
-                <div class="footer_menu">
-                    <div class="fm_1">
-                        <a href="">
-                            <div class="fm_1title">Health Insurance</div>
-                            <div class="fm_1text">Here in medicenter we have individual</div>
-                        </a>
-                    </div>
-                    <div class="fm_2">
-                        <a href="">
-                            <div class="fm_1title">Medical Records</div>
-                            <div class="fm_1text">Here in medicenter we have individual</div>
-                        </a>
-                    </div>
-                    <div class="fm_3">
-                        <a href="">
-                            <div class="fm_1title">Online Bill Pay</div>
-                            <div class="fm_1text">Here in medicenter we have individual</div>
-                        </a>
-                    </div>
-                </div>
-                <div class="footer_area">
-                    <div class="footer_areaitem">
-                        <div class="widget">
-                            <div class="widget_title">
-                                <div class="widget_title_text">Medicenter Clinic</div>
-                                <div class="widget_title_bar"></div>
-                            </div>
-                            <div class="desc_100">
-                                <div class="desc_111">
-                                    Mauris adipiscing mauris fringila turpis interdum sed pulvinar nisi malesuada individual.
-                                </div>
-                                <div class="desc_112">
-                                    <div class="desc_113">
-                                        Medicenter Clinic
-                                        33 Farlene Street
-                                        Keilor East
-                                        VIC 3033,Australia
-                                    </div>
-                                    <div class="desc_114">
-                                        +123 655 655
-                                        +123 755 755
-                                       <e>medicenter@mail.com</e>
-                                    </div>
-                                </div>
-                                <div class="icon_115">
-                                    <a  href="" class="icon_115_1"></a>
-                                    <a  href="" class="icon_115_2"></a>
-                                    <a  href="" class="icon_115_3"></a>
-                                    <a  href="" class="icon_115_4"></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="footer_areaitem">
-                        <div class="widget">
-                            <div class="widget_title">
-                                <div class="widget_title_text">Latest Posts</div>
-                                <div class="widget_title_bar"></div>
-                            </div>
-                            <div class="desc_200">
-                                <div class="desc_211">
-                                    Mauris adipiscing mauris fringila turpis interdum sed pulvinar nisi malesuada individual.
-                                </div>
-                                <div class="desc_212">
-                                   1 week ago
-                                </div>
-                                <div class="desc_221">
-                                    Mauris adipiscing mauris fringila turpis interdum sed pulvinar nisi malesuada individual.
-                                </div>
-                                <div class="desc_222">
-                                   2 week ago
-                                </div>
-                                <div class="desc_231">
-                                    Mauris adipiscing mauris fringila turpis interdum sed pulvinar nisi malesuada individual.
-                                </div>
-                                <div class="desc_232">
-                                   2 week ago
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="footer_areaitem">
-                        <div class="widget">
-                            <div class="widget_title">
-                                <div class="widget_title_text">Latest Tweets</div>
-                                <div class="widget_title_bar"></div>
-                            </div>
-                            <div class="desc_300">
-                                <div class="desc_311">
-                                    We´ve released new version(v1.2) of our #CleanMate #Cleaning Company #Maid #Gardening 
-                                    #WordPressTheme.Please che..<a href="">.t.co/tYVhmpb50</a>
-                                </div>
-                                <div class="desc_312">
-                                    4 days ago
-                                </div>
-                                <div class="desc_321">
-                                    We´ve released new version(v1.5) of our #Timetable #Responsive #Schedule #WP Plugin.
-                                    Please che..<a href="">.t.co/tUTmgd2atO</a>
-                                </div>
-                                <div class="desc_322">
-                                    1 week ago
-                                </div>
-                                <div class="desc_331">
-                                    We´ve released new version(v1.6) of our #CleanMate #Cleaning Company #Maid #Gardening 
-                                    #WordPressTheme.Please che..<a href="">.t.co/tTHlghb20</a>
-                                </div>
-                                <div class="desc_332">
-                                    2 week ago
-                                </div>
-                            </div>                      
                         </div>
                     </div>
                 </div>
-                <div class="footer_copy">
-                    © Copyright - 2020 Codartche Digital Media. All rights reserved
+                <div class="widget_body flex">
+                    <article>
+                        <div class="news_title">
+                            <h2>REGRAS DE HOSPEDAGEM</h2>
+                        </div>
+                        <div class="hours">
+                            <div class="transparency">
+                                <dl>
+                                    <dt>Horários:</dt>
+                                    <ul class="horarios">
+                                        <li>Check-in: a partir das 14:00hs</li>
+                                        <li>Check-out: até as 12:00hs</li>
+                                        <li>Café da manhã: 8:30 às 10:00hs</li>
+                                        <li>Bar e cozinha: a partir das 14:00hs</li>
+                                        <li>Limpeza das suítes (necessário autorização o hóspede): das 9:00 às
+                                            12:00hs</li>
+                                        <li>Estacionamento: 8:00 às 2:00hs</li>
+                                        <li>Piscina e quiosque: Permitida a utilização 24hs</li>
+                                    </ul>
+                                </dl>
+                            </div>
+                        </div>
+                        <div class="area">
+                            <div class="transparency">
+                                <dl>
+                                    <dt>Áreas Comuns:</dt>
+                                    <ul class="common">
+                                        <li>Convidados podem frequentar as áreas comuns exceto piscina, para acesso
+                                            total consultar taxa de Day Use</li>
+                                        <li>O café da manhã oferecido pela pousada deverá ser consumido nas
+                                            dependências do restaurante da Kauai. A retirada de itens para consumo
+                                            em local diferente somente é permitida mediante pagamento de taxa
+                                            específica(consultar
+                                            'taxas')</li>
+                                        <li>É proibida a permanência de crianças na área da piscina sem
+                                            acompanhamento de um responsável maior</li>
+                                        <li>Em caso de danos ao patrimônio, o hóspede será responsabilizado
+                                            financeiramente e a cobrança
+                                            será feita no
+                                            momento do chek-out</li>
+                                    </ul>
+                                </dl>
+                            </div>
+                        </div>
+                        <div class="suites">
+                            <div class="transparency">
+                                <dl>
+                                    <dt>Suítes:</dt>
+                                    <ul class="suite">
+                                        <li>Troca do enxoval é feita diariamente ou quando
+                                            solicitado pelo cliente </li>
+                                        <li>Fica proibido o acesso de terceiros(não-hóspedes) às suítes</li>
+                                        <li>Não é permitido fumar nas suítes ou em qualquer ambiente diferente dos
+                                            indicados ou sinalizados para este fim
+                                        </li>
+                                        <li>Objetos de valor esquecidos na suíte serão recolhidos e podem ser
+                                            retirados pelo titular da reserva</li>
+                                        <li>Aceitamos Pets mediante pagamento de uma taxa específica (consultar
+                                            'taxas')</li>
+                                    </ul>
+                                </dl>
+                            </div>
+                        </div>
+                        <div class="rate">
+                            <div class="transparency">
+                                <dl>
+                                    <dt>Taxas:</dt>
+                                    <ul class="money">
+                                        <li>Day Use: R$ 60,00 </li>
+                                        <li>Pets: R$ 80,00</li>
+                                        <li>Alimentos ou bebidas retirados do restaurante no café da manhã: R$ 15,00
+                                        </li>
+                                        <li>Quiosque: Uso gratuíto mediante reserva.</li>
+                                    </ul>
+                                </dl>
+                            </div>
+                        </div>
+                    </article>
                 </div>
             </div>
-        </footer>  
-    </body>
+        </section>
+    </section>
+    <footer>
+        <div class="container flex_column">
+            <div class="footer_area">
+                <div class="footer_areaitem">
+                    <div class="address">
+                        <div class="widget_title">
+                            <div class="widget_title_text">Kauai Pousada</div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+                        <div class="desc_113">
+                            Kauai Pousada
+                            <br>Estrada Geral do Rosa, S/N
+                            <br>CEP:88780-000
+                            <br>Imbituba - SC
+                        </div>
+                        <div class="contact">
+                            <br>+55 (48)99140-2621
+                            <br>jr@jrpro.com.br
+                        </div>
+                        <div class="icon_115">
+                            <a href="https://www.facebook.com/kauaipousadapraiadorosa/" class="icon_115_1"></a>
+                            <a href="https://www.instagram.com/kauaipousadapraiadorosa/?hl=af" class="icon_115_3"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="location">
+                    <div class="maps">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3518.716681463892!2d-48.65126108521437!3d-28.124662951605938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9526cc3cebe25111%3A0x8a88e9d479ec4a63!2sPousada%20Kauai!5e0!3m2!1spt-BR!2sar!4v1615747392774!5m2!1spt-BR!2sar"
+                            allowfullscreen="" loading="lazy"></iframe>
+
+                    </div>
+                </div>
+
+
+                <div class="footer_areaitem">
+                    <div class="information">
+                        <div class="widget_title">
+                            <div class="widget_title_text">Praia do Rosa</div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+                        <div class="desc_300">
+                            <div class="desc_311">
+                                Sobre..
+                                <a href="https://www.imbituba.sc.gov.br/noticias/listar/">
+                                    Prefeitura de Imbituba -
+                                    SC</a>
+                            </div>
+                            <div class="desc_312">
+                                <script type="text/javascript">document.write(new Date().toLocaleDateString())</script>
+                            </div>
+                            <div class="desc_321">
+                                Sobre.. <a
+                                    href="https://www.booking.com/hotel/br/kauai-imbituba.pt-br.html?aid=800210;label=gog144sb-1DCAsoIEIOa2F1YWktaW1iaXR1YmFILVgDaCCIAQGYAS24ARfIAQzYAQPoAQH4AQyIAgGoAgS4AuvJuIIGwAIB0gIkN2FlMWY0NjEtM2IyMi00YTczLTg4ZWItMGUzZGE2ZDYxNTgx2AIE4AIB;sid=3db7826bf13769ba9b7e4f9c1787208f;dest_id=900048708;dest_type=city;dist=0;from_beach_non_key_ufi_sr=1;group_adults=2;group_children=0;hapos=1;hpos=1;no_rooms=1;room1=A%2CA;sb_price_type=total;sr_order=popularity;srepoch=1615733986;srpvid=b7056970bc1f017c;type=total;ucfs=1&#hotelTmpl">
+                                    Kauai no Booking</a>
+                            </div>
+                            <div class="desc_322">
+                                <script type="text/javascript">document.write(new Date().toLocaleDateString())</script>
+                            </div>
+                            <div class="desc_331">
+                                Sobre.. <a
+                                    href="https://www.tripadvisor.com.br/Restaurants-g667789-Praia_do_Rosa_Imbituba_State_of_Santa_Catarina.html">Dicas
+                                    Gastronômicas</a>
+                            </div>
+                            <div class="desc_332">
+                                <script type="text/javascript">document.write(new Date().toLocaleDateString())</script>
+                            </div>
+                            <div class="desc_341">
+                                Sobre.. <a
+                                    href="https://www.tripadvisor.com.br/AttractionsNear-g667789-d572093-Praia_do_Rosa-Praia_do_Rosa_Imbituba_State_of_Santa_Catarina.html">Rota
+                                    Turística</a>
+                            </div>
+                            <div class="desc_342">
+                                <script type="text/javascript">document.write(new Date().toLocaleDateString())</script>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="Codartche">
+                <div class="code">
+                    <a href=""><img src="assets/images/logo_branco.png" alt=""></a>
+                </div>
+            </div>
+            <div class="footer_copy">
+                © Copyright - 2020 Codartche Digital Media. All rights reserved
+            </div>
+        </div>
+    </footer>
+</body>
+
 </html>
