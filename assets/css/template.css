@@ -3,6 +3,19 @@
     font-style:unset;
 }
 
+:root {
+    --white: #fff;
+    --background: #f1f1f1;
+    --text: #555;
+    --text-dark: #2c2c2c;
+    --black: #000;
+    --grey: #1e1e1e;
+    --grey-light:#9c9c9c;
+    --blue: #39aae1;
+    --blue-dark: #4953b8;
+    --blue-twitter: #36a9e1;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -17,7 +30,7 @@ body {
 .logo {
     display: flex;
     align-items: center;
-    border-right: 5px solid #fff;
+    border-right: 5px solid var(--white);
     margin-right: 3rem;
     padding-right: 3rem;
 }
@@ -51,21 +64,22 @@ body {
     height:fit-content;
 }
 .banner_headline h1 {
-    color: #ffffff;
+    color: var(--white);
     font-size: 60px;
     margin: 0px 0px 10px 0px;
-    border: 3px solid #ffffff;
+    border: 3px solid var(--white);
     border-radius: 10px;
     text-align: center;
     padding: 0;
-    text-shadow: 1px 1px 1px #555555;
+    text-shadow: 2px 2px var(--text);
     max-width: 350px;
     
 }
 .banner_headline h2 {
-    color: #ffffff;
+    color: var(--white);
     font-size: 26px;
-    text-shadow: 1px 1px 1px #555555;
+    text-shadow: 2px 2px var(--text);
+    
     margin: 0;
     padding: 0;
     max-width: 350px;
@@ -107,7 +121,7 @@ body {
     height: 4.8rem;
     justify-content: center;
     align-items: center;
-    border: 1px solid #000;
+    border: 1px solid var(--black);
     border-radius: 0.5rem;
     margin: 0 0 0.3rem 0.5rem;
 }
@@ -118,7 +132,7 @@ body {
 }
 
 .widget_title_text {
-    color: #000000;
+    color: var(--black);
     font-size: 24px;
     font-weight: bold;
 }
@@ -127,7 +141,7 @@ body {
     display: flex;
     width: 12rem;
     height: 4px;
-    background-color: #36a9e1;
+    background-color: var(--blue-twitter);
     margin-top: 0.8rem;
 }
 
@@ -145,7 +159,7 @@ body {
 }
 
 dt,li {
-    color: #ffffff ;
+    color: var(--white) ;
 }
 
 .horarios,
@@ -164,14 +178,14 @@ dt,li {
 .rate {
     display: flex;
     flex: auto;
-    border: 0.2px solid #000;
+    border: 0.2px solid var(--black);
     border-radius: 0.5rem;
     padding: 0 1rem 0 1rem;
     margin-bottom: 2rem;
 }
 
 .transparency {
-    background: #000;
+    background:var(--black);
     width: 50%;
     opacity: 70%;
 }
@@ -243,9 +257,9 @@ article {
 
 footer {
     display: flex;
-    background-color: #1e1e1e;
+    background-color: var(--grey);
     justify-content: center;
-    color: #ffffff;
+    color: var(--white);
 }
 
 .flex_column {
@@ -268,6 +282,7 @@ footer {
 }
 
 .information {
+    width: 250px;
     margin-top: 0.8rem;
 }
 
@@ -286,14 +301,14 @@ footer {
 }
 
 footer .widget_title_text {
-    color: #ffffff;
+    color: var(--white);
 }
 
 .footer_copy {
-    border-top: 1px solid #2c2c2c;
+    border-top: 1px solid var(--text-dark);
     height: 40px;
     line-height: 40px;
-    color: #5c5c5c;
+    color: var(--text);
     font-size: 14px;
     text-align: center;
 }
@@ -303,7 +318,7 @@ footer .widget_title_text {
 }
 
 .contact {
-    color: #fff;
+    color: var(--white);
     line-height: 1.5rem;
 }
 
@@ -312,7 +327,7 @@ footer .widget_title_text {
     max-width: 15rem;
     margin-top: 2rem;
     line-height: 1.5rem;
-    color: #9c9c9c;
+    color: var(--grey-light);
 }
 
 .icon_115 {
@@ -325,7 +340,7 @@ footer .widget_title_text {
     width: 3rem;
     height: 3rem;
     margin: 0px 5px 0px 0px;
-    background-color: #ffffff;
+    background-color: var(--white);
     background-position: center;
     background-size: cover;
 }
@@ -342,8 +357,9 @@ footer .widget_title_text {
 .desc_331,
 .desc_341 {
     max-width: 300px;
-    color: #9c9c9c;
+    color: var(--grey-light);
 }
+
 .desc_312,
 .desc_322,
 .desc_332,
@@ -351,7 +367,7 @@ footer .widget_title_text {
     font-size: 14px;
     margin-top: 5px;
     margin-bottom: 20px;
-    color: #39aae1;
+    color: var(--blue);
 }
 
 .desc_300 {
@@ -361,20 +377,15 @@ footer .widget_title_text {
 
 .desc_300 a {
     text-decoration: none;
-    color: #f1f1f1;
-    font-size: 18px;
+    color: var(--background);
+    font-size: 16px;
 }
 
 .desc_300 a:hover {
-    text-shadow: 0px 1px 0px #555555;
-    font-size: 19px;
+    text-shadow: 0px 1px 0px var(--text);
+    font-size: 18px;
 }
 
-.mm_line {
-    height: 4px;
-    border-radius: 30%;
-    background-color: #29aae1;
-}
 
 .footer_copy {
     flex-wrap: wrap;
@@ -391,7 +402,7 @@ footer .widget_title_text {
     .logo {
         padding: 2rem;
         margin: 0 0 2rem 0;
-        border-bottom: 3px solid #fff;
+        border-bottom: 3px solid var(--white);
         border-right: 0;
     }
     
