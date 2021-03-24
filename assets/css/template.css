@@ -425,20 +425,6 @@ footer .widget_title_text {
     }
 }
 
-@media(max-width:768px) {
-    .column {
-        margin-top: 0;
-        width:40%;
-    }
-    
-    .logo {
-        padding: 2rem;
-        margin: 0 0 2rem 0;
-        border-bottom: 3px solid var(--white);
-        border-right: 0;
-    }
-}
-
 @media (max-width: 500px) {
     
     html, body {
