@@ -409,7 +409,7 @@ footer .widget_title_text {
         align-items: center;
     }
     
-    .widget_title {
+    .widget_group .widget_title {
         width: 80%;
     }
     
