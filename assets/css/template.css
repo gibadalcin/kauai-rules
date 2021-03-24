@@ -93,8 +93,7 @@ body {
 .widget_group {
     display: flex; 
     justify-content: space-between;
-    margin-top: 2rem;
-    
+    margin-top: 2rem; 
 }
 
 .wifi_group {
@@ -157,8 +156,7 @@ dt,li {
 .money {
     display: flex;
     flex-direction: column;
-    font-size: 1.2rem;
-    
+    font-size: 1.2rem;  
 }
 
 .hours,
@@ -381,7 +379,6 @@ footer .widget_title_text {
     width: 100%;
 }
 
-
 @media(max-width: 769px) {
     
     .container {
@@ -411,9 +408,6 @@ footer .widget_title_text {
     
     .widget_group .widget_title {
         width: 80%;
-    }
-    
-    .widget_title_text {
         text-align: center;
     }
     
@@ -442,7 +436,6 @@ footer .widget_title_text {
     }
 }
 
-
 @media (max-width: 500px) {
     
     html, body {
@@ -465,10 +458,6 @@ footer .widget_title_text {
         font-size: 10px;
     }
     
-    .widget_group .widget_title {
-        text-align: center;
-    }
-    
     .wifi_group {
         width: 100%;
     }
@@ -485,7 +474,5 @@ footer .widget_title_text {
     }
     .desc_300 a:hover {
         font-size: 18px;
-    }
-    
-    
+    } 
 }
