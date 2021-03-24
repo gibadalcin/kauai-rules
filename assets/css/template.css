@@ -23,7 +23,7 @@ body {
 
 .container {
     display: flex;
-    width: 50%;
+    width: 60%;
     margin-top: 2rem;
 }
 
@@ -77,7 +77,7 @@ body {
 }
 .banner_headline h2 {
     color: var(--white);
-    font-size: 26px;
+    font-size: 2px;
     text-shadow: 2px 2px var(--text); 
     margin: 0;
     padding: 0;
@@ -91,39 +91,28 @@ body {
 }
 
 .widget_group {
-    display: flex;
-    flex:2;
+    display: flex; 
+    justify-content: space-between;
     margin-top: 2rem;
+    
 }
 
-
-.widget_group,
 .wifi_group {
     display: flex;
-    flex-wrap: wrap;
-    align-items:center;
-}
-
-.widget_title {
-    flex:1;
-}
-
-.wifi_group {
-    flex:3;
-    justify-content: flex-end;
+    justify-content: center;
+    
 }
 
 .name_wifi {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.5rem;
-    padding: 1rem;
-    min-width: 11rem;
+    padding: 0.5rem;
 }
 
 .form_wifi {
     display: flex;
     flex-direction: column;
-    max-width: 20rem;
+    width: 15rem;
     height: 4.8rem;
     justify-content: center;
     align-items: center;
@@ -132,28 +121,22 @@ body {
     margin: 0 0 0.3rem 0.5rem;
 }
 
-.widget_title {
-    margin: 0 0 2rem 0;
-    justify-content: center;
-}
-
 .widget_title_text {
     color: var(--black);
-    font-size: 24px;
+    font-size: 28px;
     font-weight: bold;
 }
 
 .widget_title_bar {
     display: flex;
-    width: 15rem;
+    width: 12rem;
     height: 4px;
     background-color: var(--blue-twitter);
-    margin-top: 0.8rem;
+    margin: 1rem 0 2rem 0;
 }
 
 .wifi img {
     width: 5rem;
-    flex: 1;
 }
 
 .news_title {
@@ -399,9 +382,22 @@ footer .widget_title_text {
 }
 
 
-
-@media(max-width: 1024px) {
+@media(max-width: 769px) {
     
+    .container {
+        width:80%;
+    }
+    
+    .column{
+        flex-direction: column;
+    }
+    
+    .logo {
+        padding: 2rem;
+        margin: 0 0 2rem 0;
+        border-bottom: 3px solid var(--white);
+        border-right: 0;
+    }
     
     .logo a {
         width: 100%;
@@ -410,6 +406,19 @@ footer .widget_title_text {
     .widget_group {
         flex-direction: column;
         margin-bottom: 1rem;
+        align-items: center;
+    }
+    
+    .widget_title {
+        width: 80%;
+    }
+    
+    .widget_title_text {
+        text-align: center;
+    }
+    
+    .widget_title_bar  {
+        width: 100%;
     }
     
     .news_title {
@@ -433,24 +442,6 @@ footer .widget_title_text {
     }
 }
 
-@media(max-width:768px) {
-    
-    .container {
-        margin-top: 0;
-        width:80%;
-    }
-    
-    .column{
-        flex-direction: column;
-    }
-    
-    .logo {
-        padding: 2rem;
-        margin: 0 0 2rem 0;
-        border-bottom: 3px solid var(--white);
-        border-right: 0;
-    }
-}
 
 @media (max-width: 500px) {
     
@@ -479,13 +470,7 @@ footer .widget_title_text {
     }
     
     .wifi_group {
-        flex:2;
-    }
-    
-    .wifi,
-    .form_wifi {
-        flex:1;
-        width: 70%;
+        width: 100%;
     }
     
     .maps iframe {
